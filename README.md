@@ -10,8 +10,10 @@ git fetch origin main:tmp
 git rebase tmp
 git push origin HEAD:main
 git branch -D tmp
+```
+##para subir una actualizacion de codigo a github se usan los comandos se pone otro nombre en dnde dice prueba
 
-ya que termino se pone
+```
 git add .
 git status
 git commit -m "prueba"
