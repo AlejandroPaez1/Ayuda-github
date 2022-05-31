@@ -1,6 +1,8 @@
 # Ayuda-github
 codigos de ayuda git hub
 
+![por_si_acaso](imagen.jpg)
+
 
 ```
 git pull --rebase origin master
