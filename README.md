@@ -11,8 +11,7 @@ git rebase tmp
 git push origin HEAD:main
 git branch -D tmp
 ```
-##para subir una actualizacion de codigo a github se usan los comandos se pone otro nombre en dnde dice prueba
-
+## para subir una actualizacion de codigo a github se usan los comandos se pone otro nombre en dnde dice prueba
 ```
 git add .
 git status
