@@ -1,8 +1,7 @@
 # Ayuda-github
-codigos de ayuda git hub
+codigos en caso no se pueda actualizar los cambios
 
 ![por_si_acaso](imagen.jpg)
-
 
 ```
 git pull --rebase origin master
@@ -19,5 +18,5 @@ git commit -m "prueba"
 git push -u origin main
 ```
 # Link para ayuda de Sintaxis para editar README
-[Link ](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
+[poder escribir mejor readme](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+> AlejandroP
