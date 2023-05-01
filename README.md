@@ -10,6 +10,23 @@ git rebase tmp
 git push origin HEAD:main
 git branch -D tmp
 ```
+## para subir a otro repositorio invitado 
+
+- primero hay que crear un alias 
+```
+git remote add <nombre-alias> <url-remote>
+```
+
+```
+git pull --rebase <nombre-alias> main
+git fetch <nombre-alias> main:tmp
+git rebase tmp
+git push <nombre-alias> HEAD:main
+git branch -D tmp
+```
+ 
+
+
 ## para subir una actualizacion de codigo a github se usan los comandos se pone otro nombre en dnde dice prueba
 ```
 git add .
