@@ -17,6 +17,7 @@ git branch -D tmp
 git remote add <nombre-alias> <url-remote>
 ```
 
+- En caso de error
 ```
 git pull --rebase <nombre-alias> main
 git fetch <nombre-alias> main:tmp
@@ -25,8 +26,19 @@ git push <nombre-alias> HEAD:main
 git branch -D tmp
 ```
  
+- Crear una rama para trabajar con otros
+```
+git branch tuNombre
+git checkout tuNombre
+```
 
+---
+- En caso que quiera forzar la descarga sin guardar los cambios locales
+```
+git fetch origin
+git reset --hard origin/main
 
+```
 ## para subir una actualizacion de codigo a github se usan los comandos se pone otro nombre en dnde dice prueba
 ```
 git add .
